@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- menu btn  -->
+    <div class="menuBtn">
+        <div class="lineContainer">
+            <div class="line"></div>
+        </div>
+    </div>
+    <!-- navbar  -->
+    <nav class="leftNav">
+        <div class="navItems">
+            <div class="circlePic">
+                <img src="./ressources/avatar.png" alt="portrait image">
+            </div>
+        </div>
+        <div class="navItems">
+            <span class="navMenuItem">
+                <a href="#home">Accueil</a>
+            </span>
+        </div>
+        <div class="navItems">
+            <span class="navMenuItem">
+                <a href="#presentation">Présentation</a>
+            </span>
+        </div>
+        <div class="navItems">
+            <span class="navMenuItem">
+                <a href="#portfolio">Projects</a>
+            </span>
+        </div>
+        <div class="navItems">
+            <span class="navMenuItem">
+                <a href="#range">Compétences</a>
+            </span>
+        </div>
+        <div class="navItems">
+            <span class="navMenuItem">
+                <a href="#experiences">Expériences</a>
+            </span>
+        </div>
+        <div class="navItems">
+            <div class="logoContact">
+                <img src="./ressources/envelope.svg" alt="contact logo">
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Home section  -->
+
+    <section class="home" id="home">
+        <h1>Bienvenue sur mon portfolio</h1>
+        <p class="txtAnimated"></p>
+        <a href="#portfolio" class="homeBtn homeBtn1">Projects</a>
+        <a href="#experiences" class="homeBtn homeBtn2">Expériences</a>
+        <div class="medias">
+            <a href="https://github.com/Haberj97" target="blank" >
+                <div class="media media1">
+                    <img src = 'ressources/github.svg' alt="github icon" class = 'mediaIcon'/>
+                </div>
+            </a>
+            <a href="https://www.codewars.com/users/habert_j" target="blank" >
+                <div class="media media2">
+                    <img src = 'ressources/codewars.png' alt="codewars icon" class = 'mediaIcon' />
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/jessy-habert-839268121/" target="blank" >
+                <div class="media media3">
+                    <img src = 'ressources/linkedin.svg' alt="linkdin icon" class = 'mediaIcon'/>
+                </div>
+            </a>
+            
+        </div>
+        <a href="#presentation">
+            <div class="circleBtn">
+                <img src="ressources/arrow.svg" alt="logo down arroy" class="circleBtnLogo">
+            </div>
+        </a>
+    </section>
+
+    <!-- Presentation  -->
+    <section class="presentation" id="presentation">
+        <h2 class="presentationTitle">Salut moi c'est Jessy !</h2>
+        <div class="presentationContainer">
+            <div class="presentationForm"></div>
+            <div class="leftPres">
+                <h3>Developpeur web - Fullstack</h3>
+                <hr>
+                <p>Passioné par le monde du l'informatique j'ai décidé d'entreprendre une reconversion professionel en temps que developpeur web en alternance à l'Etna.</p>
+                <br>
+                <p>Au cours des nombreux projects réalisé en groupe je me suis découvert une passion pour le monde du développement web. </p>
+                <br>
+                <p>Je suis actuellement à la recherche d'une alternance donc si vous avez des challenges à me proposer n'hésitez pas !</p>
+            </div>
+            <div class="rightPres">
+                <ul class="presentationList">
+                    <li class="ListItem li1">
+                        <span class="numberStyle">1.</span>
+                        <p class="listText">Développeur web full stack</p>
+                    </li>
+                    <li class="ListItem li2">
+                        <span class="numberStyle">2.</span>
+                        <p class="listText">Développeur back-end</p>
+                    </li>
+                    <li class="ListItem li3">
+                        <span class="numberStyle">3.</span>
+                        <p class="listText">Développeur front-end</p>
+                    </li>
+                        <li class="ListItem li4"><span class="numberStyle">4.</span>
+                        <p class="listText">Administrateur système</p>
+                    </li>
+                        <li class="ListItem li5"><span class="numberStyle">5.</span>
+                        <p class="listText">Designer UI/UX</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio  -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="portfolioTitle">Quelques projects</h2>
+        <div class="portfolioContainer">
+            <div class="item vag1">
+                <div class="containerImagePortfolio">
+                    <img src="ressources/runner.png" alt="image porfolio">
+                </div>
+                <h3>Space runner en C avec la SDL2</h3>
+                <a href="#https://github.com/Haberj97/myRunner" class="btnProject">lien github</a>
+            </div>        
+            <div class="item vag1">
+                <div class="containerImagePortfolio">
+                    <img src="ressources/clicker.png" alt="image porfolio">
+                </div>
+                <h3>My Clicker en Javascript vanilla</h3>
+                <a href="#https://haberj97.github.io/My_clicker_game/" class="btnProject">Jouer au clicker</a>
+            </div>
+            <div class="item vag1">
+                <div class="containerImagePortfolio">
+                    <img src="ressources/Restaurant_advisor.png" alt="image porfolio">
+                </div>
+                <h3>Restaurant Advisor en SwiftUi + Api php - Laravel </h3>
+                <a href="#https://github.com/Haberj97/Restaurant-Advisor-" class="btnProject">Découvrez le project</a>
+            </div>
+    </section>
+    <!-- ----------------------Section Range------------------- -->
+    <section class="range" id = "range">
+        <h2 class="rangeTitle">Mes compétences</h2>
+        <div class="skillsGrid">
+            <div class="rangeContainer">
+                <p class="skillLabel">Javascript</p>
+                <div class="skillBar b1"></div>
+                <div class="grayBar"></div>
+            </div>
+            <div class="rangeContainer">
+                <p class="skillLabel">React js</p>
+                <div class="skillBar b2"></div>
+                <div class="grayBar"></div>
+            </div>
+            <div class="rangeContainer">
+                <p class="skillLabel">Typescript</p>
+                <div class="skillBar b3"></div>
+                <div class="grayBar"></div>
+            </div>
+            <div class="rangeContainer">
+                <p class="skillLabel">Node</p>
+                <div class="skillBar b4"></div>
+                <div class="grayBar"></div>
+            </div>
+            <div class="rangeContainer">
+                <p class="skillLabel">PHP</p>
+                <div class="skillBar b5"></div>
+                <div class="grayBar"></div>
+            </div>
+            <div class="rangeContainer">
+                <p class="skillLabel">Laravel</p>
+                <div class="skillBar b6"></div>
+                <div class="grayBar"></div>
+            </div>
+        </div>
+    </section>
+    <!-- section experiences  -->
+    <section class="experiences" id="experiences">
+        <h2 class="experienceTitle">
+            Mes experiences
+        </h2>
+        <div class="ExperiencesContainer">
+            <div class="vertBar">
+                <div class="ballIcon"><img src="ressources/atos.png" alt="icon experience"></div>
+                <div class="ballIcon"><img src="ressources/th.jpg" alt="icon experience"></div>
+                <div class="ballIcon"><img src="ressources/gtt.png" alt="icon experience"></div>
+                <div class="ballIcon"><img src="ressources/t-solid.svg" alt="icon experience"></div>
+                <div class="ballIcon"><img src="ressources/plane.svg" class = "plane" alt=""></div>
+            </div>
+            <div class="containerFlexExp">
+                <div class="bloc bloc1">
+                    <div class="containt">
+                        <p class="titleSection">04/04/2022 - 27/01/2023 | Administrateur système | ATOS </p>
+                        <p class="textSection">Maintenance , déploiement et administration de la platforme HSP</p>
+                    </div>
+                </div>
+                <div class="bloc bloc2">
+                    <div class="containt">
+                        <p class="titleSection">23/03/2020 - 21/06/2021 | DELIVERY PROJECT MANAGER | TELEHOUSE</p>
+                        <p class="textSection">Suivi de la mise en place des infrastructures techniques ( en datacenter ) des nouveaux clients Telehouse PARIS et référent technique des clients existants</p>
+                    </div>
+                </div>
+                <div class="bloc bloc3">
+                    <div class="containt">
+                        <p class="titleSection">01/09/2016 - 13/03/2020 | FIELD OPERATION ENGINEER | INTEROUTE - GTT </p>
+                        <p class="textSection">Suivi et organisation des déploiements réseaux télecom ( en datacenter )  région Ile de France .  Support technique lors des incidents réseaux , suivi et mise en oeuvre des migrations réseaux ( travaux de nuit ) . Suivi et organisation  d'un projet de consolidation réseau d'un datacenter.</p>
+                    </div>
+                </div>
+                <div class="bloc bloc4">
+                    <div class="containt">
+                        <p class="titleSection">02/09/2013 - 31/08/2016 | ELECTRICIEN | TARDY SARL (Alternance)</p>
+                        <p class="textSection">Réalisations de circuits électriques , dépannage mise en service dans le secteur tertiaire .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script type="text/javascript" src="./app.js"></script>  
+</body>
+</html>
